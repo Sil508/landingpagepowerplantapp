@@ -444,8 +444,10 @@ a:hover {
   z-index: 10;
 }
 
-.shot:hover .screenshot {
-  transform: scale(1.5);
+@media (hover: hover) and (min-width: 861px) {
+  .shot:hover .screenshot {
+    transform: scale(1.5);
+  }
 }
 
 .shot figcaption {
@@ -689,6 +691,15 @@ a:hover {
 
 /* Responsive */
 @media (max-width: 860px) {
+  html,
+  body {
+    overflow-x: clip;
+  }
+
+  .hero {
+    min-height: auto;
+  }
+
   .hero-inner {
     grid-template-columns: 1fr;
     padding-top: 3.5rem;
@@ -707,6 +718,16 @@ a:hover {
 
   .nav a:not(.lang-toggle) {
     display: none;
+  }
+
+  .section {
+    padding: 3rem 1rem;
+  }
+
+  .shots {
+    padding: 1rem 0.25rem 1.5rem;
+    margin-block: 0;
+    grid-auto-columns: minmax(160px, 70vw);
   }
 
   .qr-row {
