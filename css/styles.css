@@ -720,7 +720,7 @@ a:hover {
   }
 
   .hero-brand-name {
-    font-size: clamp(1.75rem, 9vw, 2.4rem);
+    font-size: clamp(1.5rem, 8vw, 2.1rem);
   }
 
   .hero h1 {
