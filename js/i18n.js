@@ -64,56 +64,75 @@ window.PowerPlantI18n = (() => {
       "privacy.meta.title": "Privacyverklaring — PowerPlant",
       "privacy.back": "← Terug naar PowerPlant",
       "privacy.title": "Privacyverklaring",
-      "privacy.updated": "Laatst bijgewerkt: 5 september 2026",
+      "privacy.updated": "Laatst bijgewerkt: 10 september 2026",
       "privacy.intro":
-        "Deze privacyverklaring beschrijft hoe GenCode Utrecht persoonsgegevens verwerkt bij het gebruik van de PowerPlant-app en deze website (powerplantapp.nl).",
+        "Deze privacyverklaring beschrijft hoe GenCode Utrecht persoonsgegevens verwerkt bij het gebruik van de PowerPlant-app en de bijbehorende website (powerplantapp.nl).",
       "privacy.s1.title": "1. Verantwoordelijke",
       "privacy.s1.body":
-        "Verwerkingsverantwoordelijke is GenCode Utrecht, Groenedijk 78, 3544 AB Utrecht, Nederland. Contact: support@powerplantapp.nl.",
+        "De verwerkingsverantwoordelijke voor de gegevensverwerking is:\nGenCode Utrecht\nGroenedijk 78\n3544 AB Utrecht\nNederland\nContact: support@powerplantapp.nl",
       "privacy.s2.title": "2. Welke gegevens we verwerken",
       "privacy.s2.body":
-        "PowerPlant verwerkt alleen gegevens die nodig zijn om energie-inschattingen te maken:",
+        "PowerPlant is ontworpen op basis van het principe van minimale gegevensverwerking. Wij verwerken uitsluitend gegevens die technisch noodzakelijk zijn om energie-inschattingen te maken en de app te laten functioneren:",
       "privacy.s2.li1":
-        "Locatie: GPS-coördinaten of een Nederlands adres dat je zelf invoert, om instraling en productie te berekenen.",
+        "Locatiegegevens: GPS-coördinaten of een handmatig ingevoerd Nederlands adres, uitsluitend om de lokale zonne-instraling en energieproductie te berekenen.",
       "privacy.s2.li2":
-        "Installatie- en huishoudgegevens die je invult (bijv. Wp, helling, verbruiksprofiel, batterijcapaciteit, tarieven).",
+        "Installatie- en huishoudgegevens: Gegevens die je zelf invult (zoals het vermogen in Wp, de hellingshoek van panelen, je verbruiksprofiel, batterijcapaciteit en energietarieven).",
       "privacy.s2.li3":
-        "Technische opslag op het apparaat (instellingen en eventuele Pro-aankoopstatus via lokale opslag).",
+        "Technische opslag op het apparaat: Instellingen en je Pro-aankoopstatus worden uitsluitend via lokale opslag op jouw eigen apparaat bewaard.",
+      "privacy.s2.li4":
+        "Transactiegegevens (Pro-versie): Indien je de Pro-versie aanschaft, wordt de betaling volledig afgehandeld door de app-store van jouw apparaat (Apple App Store of Google Play Store). GenCode Utrecht heeft geen toegang tot jouw bank- of creditcardgegevens.",
       "privacy.s2.note":
-        "We vragen geen account aan. We verkopen geen persoonsgegevens.",
+        "Wij verplichten je niet om een account aan te maken. Wij verkopen geen persoonsgegevens aan derden.",
       "privacy.s3.title": "3. Doeleinden en grondslag",
       "privacy.s3.body":
-        "Gegevens worden verwerkt om de functionaliteit van de app te leveren die je zelf vraagt (overeenkomst / uitvoering van de dienst) en om de app te verbeteren of te ondersteunen wanneer je contact opneemt. Rechtsgrondslag: uitvoering van de overeenkomst (AVG art. 6 lid 1 onder b) en, waar van toepassing, gerechtvaardigd belang of toestemming.",
-      "privacy.s4.title": "4. Delen met derden",
+        "Wij verwerken jouw gegevens voor de volgende doeleinden en op basis van de volgende AVG-rechtsgrondslagen:",
+      "privacy.s3.li1":
+        "Uitvoering van de overeenkomst (art. 6 lid 1 onder b AVG): Om de functies en berekeningen van de app te leveren die je zelf opstart.",
+      "privacy.s3.li2":
+        "Gerechtvaardigd belang (art. 6 lid 1 onder f AVG): Voor het technisch optimaliseren en beveiligen van de website en de app, en om ondersteuning te bieden wanneer je contact met ons opneemt.",
+      "privacy.s3.li3":
+        "Toestemming (art. 6 lid 1 onder a AVG): Indien van toepassing voor specifieke functies waar je expliciet akkoord voor geeft (zoals het live ophalen van je GPS-locatie). Gegeven toestemming kun je op elk moment weer intrekken via de instellingen van je apparaat.",
+      "privacy.s4.title": "4. Delen met derden en internationale doorgifte",
       "privacy.s4.body":
-        "Voor berekeningen stuurt de app alleen de noodzakelijke gegevens naar:",
+        "Voor het uitvoeren van de berekeningen en het tonen van de website deelt de app of website uitsluitend strikt noodzakelijke gegevens met de volgende partijen:",
       "privacy.s4.li1":
-        "PDOK Locatieserver (Kadaster / Nederlandse overheid) — adreszoeken en geocodering.",
+        "PDOK Locatieserver (Kadaster / Nederlandse overheid): Voor het omzetten van een handmatig ingevoerd adres naar coördinaten (geocodering).",
       "privacy.s4.li2":
-        "PVGIS (Joint Research Centre van de Europese Commissie) — maandelijkse / dagelijkse instralingsdata voor jouw coördinaten.",
+        "PVGIS (Joint Research Centre van de Europese Commissie): Voor het ophalen van historische en actuele instralingsdata op basis van jouw coördinaten.",
+      "privacy.s4.li3":
+        "GitHub Inc. (GitHub Pages): Voor het hosten en tonen van de website powerplantapp.nl. GitHub verwerkt hierbij technische serverlogs (zoals IP-adressen). Omdat GitHub een Amerikaans bedrijf is, worden deze gegevens doorgegeven naar de Verenigde Staten. GitHub waarborgt een passend beschermingsniveau via de EU-U.S. Data Privacy Framework-certificering.",
       "privacy.s4.note":
-        "Deze diensten ontvangen locatiegegevens uitsluitend om de gevraagde berekening mogelijk te maken. We gebruiken geen advertentienetwerken of analytische trackers in de app zoals die nu is.",
+        "Wij gebruiken in de huidige versie van de app en website geen commerciële advertentienetwerken of analytische trackers (zoals Google Analytics).",
       "privacy.s5.title": "5. Bewaartermijn",
       "privacy.s5.body":
-        "Locatie- en configuratiegegevens blijven in principe op jouw apparaat staan totdat je ze wist of de app verwijdert. Ondersteuningsmail die je stuurt bewaren we zo lang als nodig is om je vraag te beantwoorden, daarna wissen of anonimiseren we die.",
+        "Locatie- en configuratiegegevens blijven op jouw eigen apparaat staan totdat je deze zelf wist of de app verwijdert. E-mails die je naar onze ondersteuningsservice stuurt, bewaren wij zolang als nodig is om je vraag volledig te beantwoorden en eventuele nazorg te leveren. Daarna worden deze berichten binnen een redelijke termijn verwijderd of geanonimiseerd.",
       "privacy.s6.title": "6. Beveiliging",
       "privacy.s6.body":
-        "We nemen passende technische maatregelen (versleutelde verbindingen naar externe API’s via HTTPS, minimale gegevensuitwisseling). Geen methode is 100% veilig; gebruik de app met dat bewustzijn.",
+        "Wij nemen passende technische en organisatorische maatregelen om jouw gegevens te beschermen. Alle gegevensuitwisseling met externe API's en servers verloopt via streng versleutelde HTTPS-verbindingen. We minimaliseren de data die wordt verzonden tot het absolute minimum dat nodig is voor de werking van de dienst.",
       "privacy.s7.title": "7. Jouw rechten",
       "privacy.s7.body":
-        "Onder de AVG kun je onder meer inzage, rectificatie, verwijdering, beperking van verwerking en dataportabiliteit vragen, en bezwaar maken tegen verwerking op basis van gerechtvaardigd belang. Neem contact op via support@powerplantapp.nl. Je kunt ook een klacht indienen bij de Autoriteit Persoonsgegevens (autoriteitpersoonsgegevens.nl).",
+        "Onder de AVG heb je verschillende rechten met betrekking tot je persoonsgegevens:",
+      "privacy.s7.li1":
+        "Recht op inzage, rectificatie of verwijdering van je gegevens.",
+      "privacy.s7.li2":
+        "Recht op beperking van de verwerking of om bezwaar te maken tegen de verwerking (bijvoorbeeld tegen verwerking op basis van gerechtvaardigd belang).",
+      "privacy.s7.li3": "Recht op dataportabiliteit.",
+      "privacy.s7.body2":
+        "Omdat de meeste gegevens uitsluitend lokaal op jouw telefoon staan, kun je het recht op verwijdering en inzage grotendeels zelf uitoefenen door de app-gegevens te wissen of de app te deinstalleren. Voor overige vragen of verzoeken kun je contact met ons opnemen via support@powerplantapp.nl.",
+      "privacy.s7.body3":
+        "Je hebt daarnaast altijd het recht om een klacht in te dienen bij de bevoegde privacytoezichthouder, de Nederlandse Autoriteit Persoonsgegevens.",
       "privacy.s8.title": "8. Kinderen",
       "privacy.s8.body":
-        "PowerPlant is niet gericht op kinderen onder de 16. We verzamelen niet bewust gegevens van minderjarigen.",
-      "privacy.s9.title": "9. Website",
+        "PowerPlant is niet specifiek gericht op kinderen onder de 16 jaar. Wij verzamelen niet bewust gegevens van minderjarigen.",
+      "privacy.s9.title": "9. Website-specifieke informatie",
       "privacy.s9.body":
-        "Deze marketingwebsite slaat je taalvoorkeur lokaal op (localStorage) zodat de taalkeuze bewaard blijft. We plaatsen geen trackingcookies voor advertenties of analytics op deze site in de huidige versie.",
+        "Onze website powerplantapp.nl slaat jouw taalvoorkeur lokaal op in je browser via localStorage zodat de website de volgende keer in de juiste taal opent. Wij plaatsen geen trackingcookies of marketingcookies van derden.",
       "privacy.s10.title": "10. Wijzigingen",
       "privacy.s10.body":
-        "We kunnen deze verklaring aanpassen wanneer de app of wetgeving verandert. De datum bovenaan geeft de laatste update aan. Bij materiële wijzigingen vermelden we dat op de website of in de app.",
+        "Wij kunnen deze privacyverklaring van tijd tot tijd aanpassen, bijvoorbeeld wanneer de app updates krijgt of wanneer wetgeving verandert. De datum bovenaan deze pagina geeft aan wanneer de laatste wijziging heeft plaatsgevonden. Bij ingrijpende wijzigingen zullen we dit duidelijk vermelden op de website of via een notificatie in de app.",
       "privacy.s11.title": "11. Contact",
       "privacy.s11.body":
-        "Vragen over privacy: support@powerplantapp.nl — GenCode Utrecht, Groenedijk 78, 3544 AB Utrecht, Nederland.",
+        "Voor vragen, opmerkingen of verzoeken omtrent jouw privacy kun je contact opnemen met:\nGenCode Utrecht\nGroenedijk 78\n3544 AB Utrecht\nNederland\nE-mail: support@powerplantapp.nl",
     },
     en: {
       "meta.title": "PowerPlant — Home energy balance",
@@ -169,61 +188,80 @@ window.PowerPlantI18n = (() => {
       "download.qrHint": "QR code will appear at launch",
       "footer.tagline": "Energy balance for Dutch households",
       "footer.company": "GenCode Utrecht",
-      "footer.privacy": "Privacy statement",
+      "footer.privacy": "Privacy Policy",
       "footer.rights": "© 2026 GenCode Utrecht",
-      "privacy.meta.title": "Privacy statement — PowerPlant",
+      "privacy.meta.title": "Privacy Policy — PowerPlant",
       "privacy.back": "← Back to PowerPlant",
-      "privacy.title": "Privacy statement",
-      "privacy.updated": "Last updated: 5 September 2026",
+      "privacy.title": "Privacy Policy",
+      "privacy.updated": "Last updated: September 10, 2026",
       "privacy.intro":
-        "This privacy statement explains how GenCode Utrecht processes personal data when you use the PowerPlant app and this website (powerplantapp.nl).",
-      "privacy.s1.title": "1. Controller",
+        "This privacy policy describes how GenCode Utrecht processes personal data when you use the PowerPlant app and the associated website (powerplantapp.nl).",
+      "privacy.s1.title": "1. Data Controller",
       "privacy.s1.body":
-        "The controller is GenCode Utrecht, Groenedijk 78, 3544 AB Utrecht, The Netherlands. Contact: support@powerplantapp.nl.",
-      "privacy.s2.title": "2. Data we process",
+        "The data controller responsible for processing your data is:\nGenCode Utrecht\nGroenedijk 78\n3544 AB Utrecht\nThe Netherlands\nContact: support@powerplantapp.nl",
+      "privacy.s2.title": "2. What Data We Process",
       "privacy.s2.body":
-        "PowerPlant only processes data needed to produce energy estimates:",
+        "PowerPlant is designed based on the principle of data minimization. We only process data that is technically necessary to provide energy estimates and ensure the app functions properly:",
       "privacy.s2.li1":
-        "Location: GPS coordinates or a Dutch address you enter, to calculate irradiation and production.",
+        "Location Data: GPS coordinates or a manually entered Dutch address, solely used to calculate local solar irradiance and energy production.",
       "privacy.s2.li2":
-        "Installation and household inputs you provide (e.g. Wp, tilt, usage profile, battery capacity, tariffs).",
+        "Installation and Household Data: Information you enter yourself (such as solar panel capacity in Wp, tilt angle, electricity consumption profile, battery capacity, and energy tariffs).",
       "privacy.s2.li3":
-        "On-device technical storage (settings and any Pro purchase status via local storage).",
+        "Technical Local Storage: Settings and your Pro purchase status are stored exclusively in the local storage of your own device.",
+      "privacy.s2.li4":
+        "Transaction Data (Pro Version): If you purchase the Pro version, the payment is fully handled by the app store of your device (Apple App Store or Google Play Store). GenCode Utrecht does not have access to your banking or credit card details.",
       "privacy.s2.note":
-        "We do not require an account. We do not sell personal data.",
-      "privacy.s3.title": "3. Purposes and legal basis",
+        "We do not require you to create an account. We do not sell personal data to third parties.",
+      "privacy.s3.title": "3. Purposes and Legal Basis",
       "privacy.s3.body":
-        "Data is processed to deliver the app functionality you request (performance of a contract) and to support you when you contact us. Legal bases: performance of a contract (GDPR Art. 6(1)(b)) and, where applicable, legitimate interest or consent.",
-      "privacy.s4.title": "4. Sharing with third parties",
+        "We process your data for the following purposes and based on the following GDPR legal bases:",
+      "privacy.s3.li1":
+        "Performance of a Contract (Art. 6(1)(b) GDPR): To deliver the app features and calculations that you actively request.",
+      "privacy.s3.li2":
+        "Legitimate Interests (Art. 6(1)(f) GDPR): For the technical optimization and security of the website and the app, and to provide customer support when you contact us.",
+      "privacy.s3.li3":
+        "Consent (Art. 6(1)(a) GDPR): Where applicable for specific features you explicitly approve (such as retrieving your live GPS location). You can withdraw your consent at any time through your device settings.",
+      "privacy.s4.title": "4. Third-Party Sharing and International Data Transfers",
       "privacy.s4.body":
-        "For calculations, the app sends only what is necessary to:",
+        "To perform the required calculations and display the website, the app or website only shares strictly necessary data with the following parties:",
       "privacy.s4.li1":
-        "PDOK Locatieserver (Kadaster / Dutch government) — address search and geocoding.",
+        "PDOK Locatieserver (Kadaster / Dutch Government): For converting a manually entered address into geographic coordinates (geocoding).",
       "privacy.s4.li2":
-        "PVGIS (Joint Research Centre of the European Commission) — monthly / daily irradiation for your coordinates.",
+        "PVGIS (Joint Research Centre of the European Commission): To retrieve historical and current solar irradiance data based on your coordinates.",
+      "privacy.s4.li3":
+        "GitHub Inc. (GitHub Pages): For hosting and displaying the website powerplantapp.nl. GitHub processes technical server logs (such as IP addresses) for this purpose. Because GitHub is a US-based company, this data is transferred to the United States. GitHub ensures an adequate level of data protection through its EU-U.S. Data Privacy Framework certification.",
       "privacy.s4.note":
-        "These services receive location data solely to perform the requested calculation. The current app does not use ad networks or analytics trackers.",
-      "privacy.s5.title": "5. Retention",
+        "In the current version of the app and website, we do not use commercial advertising networks or analytical trackers (such as Google Analytics).",
+      "privacy.s5.title": "5. Data Retention",
       "privacy.s5.body":
-        "Location and configuration data generally stay on your device until you clear them or uninstall the app. Support emails you send are kept only as long as needed to answer your request, then deleted or anonymised.",
-      "privacy.s6.title": "6. Security",
+        "Location and configuration data remain on your own device until you delete them yourself or uninstall the app. Emails sent to our support service are retained for as long as necessary to fully answer your question and provide any follow-up assistance. Afterward, these messages are deleted or anonymized within a reasonable timeframe.",
+      "privacy.s6.title": "6. Data Security",
       "privacy.s6.body":
-        "We apply appropriate technical measures (HTTPS to external APIs, minimal data exchange). No method is 100% secure; use the app with that awareness.",
-      "privacy.s7.title": "7. Your rights",
+        "We implement appropriate technical and organizational measures to protect your data. All data exchange with external APIs and servers is conducted over securely encrypted HTTPS connections. We minimize the data transmitted to the absolute minimum required to operate the service.",
+      "privacy.s7.title": "7. Your Rights",
       "privacy.s7.body":
-        "Under the GDPR you may request access, rectification, erasure, restriction, data portability, and object to processing based on legitimate interest. Contact support@powerplantapp.nl. You may also lodge a complaint with the Dutch Data Protection Authority (autoriteitpersoonsgegevens.nl).",
+        "Under the GDPR, you have several rights regarding your personal data:",
+      "privacy.s7.li1":
+        "The right to access, rectify, or erase your data.",
+      "privacy.s7.li2":
+        "The right to restrict processing or to object to processing (for instance, when processing is based on legitimate interests).",
+      "privacy.s7.li3": "The right to data portability.",
+      "privacy.s7.body2":
+        "Since most data is stored exclusively local to your phone, you can exercise your right to erasure and access directly by clearing the app data or uninstalling the app. For any other questions or requests, you can contact us at support@powerplantapp.nl.",
+      "privacy.s7.body3":
+        "You also have the right to lodge a complaint with the competent supervisory authority, the Dutch Data Protection Authority (Autoriteit Persoonsgegevens).",
       "privacy.s8.title": "8. Children",
       "privacy.s8.body":
-        "PowerPlant is not directed at children under 16. We do not knowingly collect data from minors.",
-      "privacy.s9.title": "9. Website",
+        "PowerPlant is not specifically directed at children under the age of 16. We do not knowingly collect data from minors.",
+      "privacy.s9.title": "9. Website-Specific Information",
       "privacy.s9.body":
-        "This marketing site stores your language preference locally (localStorage) so the choice persists. The current version does not set advertising or analytics tracking cookies.",
-      "privacy.s10.title": "10. Changes",
+        "Our website powerplantapp.nl stores your language preference locally in your browser using localStorage so that the website opens in the correct language during your next visit. We do not place tracking cookies or third-party marketing cookies.",
+      "privacy.s10.title": "10. Changes to this Policy",
       "privacy.s10.body":
-        "We may update this statement when the app or law changes. The date at the top shows the latest update. Material changes will be noted on the website or in the app.",
+        "We may update this privacy policy from time to time, for example, when the app receives updates or when legislation changes. The date at the top of this page indicates when the last update occurred. In the event of material changes, we will clearly state this on the website or via a notification within the app.",
       "privacy.s11.title": "11. Contact",
       "privacy.s11.body":
-        "Privacy questions: support@powerplantapp.nl — GenCode Utrecht, Groenedijk 78, 3544 AB Utrecht, The Netherlands.",
+        "For questions, comments, or requests regarding your privacy, please contact:\nGenCode Utrecht\nGroenedijk 78\n3544 AB Utrecht\nThe Netherlands\nEmail: support@powerplantapp.nl",
     },
   };
 
