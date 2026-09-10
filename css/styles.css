@@ -624,6 +624,10 @@ a:hover {
   color: var(--muted);
 }
 
+.privacy-pre {
+  white-space: pre-line;
+}
+
 .privacy-inner ul {
   padding-left: 1.2rem;
 }
