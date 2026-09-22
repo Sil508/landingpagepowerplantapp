@@ -8,16 +8,17 @@ window.PowerPlantI18n = (() => {
     nl: {
       "meta.title": "PowerPlant — Energiebalans voor je huis",
       "meta.description":
-        "Schat zonne-opbrengst, verbruik, batterij en kosten in voor huishoudens in Nederland.",
+        "PowerPlant is een rekentool: schat opbrengst, verbruik en jaarkosten van zonnepanelen en batterij in voor huishoudens in Nederland.",
       "nav.features": "Functies",
       "nav.screenshots": "Screenshots",
       "nav.download": "Download",
       "nav.privacy": "Privacy",
       "nav.lang": "EN",
       "nav.langAria": "Switch to English",
-      "hero.headline": "Zie wat zonnepanelen en een batterij je écht opleveren",
+      "hero.headline":
+        "Bereken of zonnepanelen en een batterij de moeite waard zijn",
       "hero.lead":
-        "PowerPlant schat productie, verbruik en jaarkosten voor huishoudens in Nederland — op basis van jouw locatie en situatie.",
+        "PowerPlant is een rekentool: vul je situatie in en krijg een inschatting van opbrengst, verbruik en jaarkosten.",
       "hero.ctaPrimary": "Binnenkort downloaden",
       "hero.ctaSecondary": "Bekijk functies",
       "features.eyebrow": "Functies",
@@ -137,16 +138,17 @@ window.PowerPlantI18n = (() => {
     en: {
       "meta.title": "PowerPlant — Home energy balance",
       "meta.description":
-        "Estimate solar production, usage, battery storage and costs for households in the Netherlands.",
+        "PowerPlant is a calculation tool: estimate solar production, usage and annual costs of panels and battery for households in the Netherlands.",
       "nav.features": "Features",
       "nav.screenshots": "Screenshots",
       "nav.download": "Download",
       "nav.privacy": "Privacy",
       "nav.lang": "NL",
       "nav.langAria": "Schakel naar Nederlands",
-      "hero.headline": "See what solar panels and a battery really earn you",
+      "hero.headline":
+        "Calculate whether solar panels and a battery are worth it",
       "hero.lead":
-        "PowerPlant estimates production, usage and annual costs for Dutch households — based on your location and setup.",
+        "PowerPlant is a calculation tool: enter your situation and get an estimate of production, usage and annual costs.",
       "hero.ctaPrimary": "Download coming soon",
       "hero.ctaSecondary": "Explore features",
       "features.eyebrow": "Features",
