@@ -10,6 +10,7 @@ window.PowerPlantI18n = (() => {
       "meta.description":
         "PowerPlant is een rekentool: schat opbrengst, verbruik en jaarkosten van zonnepanelen en batterij in voor huishoudens in Nederland.",
       "nav.features": "Functies",
+      "nav.pro": "Pro",
       "nav.screenshots": "Screenshots",
       "nav.download": "Download",
       "nav.privacy": "Privacy",
@@ -27,7 +28,7 @@ window.PowerPlantI18n = (() => {
         "Van zonnepanelen tot tarieven: één app die productie, verbruik en kosten samenbrengt.",
       "features.solar.title": "Zonnepanelen",
       "features.solar.body":
-        "Stel locatie in via GPS of Nederlands adres (PDOK). Bereken maandelijkse opbrengst met Wp, helling, oriëntatie en systeemrendement — gebaseerd op PVGIS-instraling.",
+        "Stel locatie in via GPS of Nederlands adres (PDOK). Bereken maandelijkse opbrengst met Wp, helling, oriëntatie en systeemrendement — met een lokaal Nederland-instralingsraster (afgeleid van PVGIS).",
       "features.usage.title": "Verbruik",
       "features.usage.body":
         "Kies woningtype, bewoners en apparaten. PowerPlant bouwt een realistisch maand- en uurverbruiksprofiel voor jouw huishouden.",
@@ -40,6 +41,22 @@ window.PowerPlantI18n = (() => {
       "features.results.title": "Resultaten",
       "features.results.body":
         "Jaarkosten, zelfvoorzieningsgraad, terugleververgoeding en duidelijke grafieken van energiestroom en maandkosten.",
+      "pro.eyebrow": "PowerPlant Pro",
+      "pro.title": "Meer mogelijkheden met een eenmalige aankoop",
+      "pro.lead":
+        "De kern van PowerPlant is gratis. PowerPlant Pro is een eenmalige unlock — geen abonnement — en ondersteunt de verdere ontwikkeling van de app.",
+      "pro.nowTitle": "Nu in Pro",
+      "pro.now1": "Configuraties opslaan, openen en opnieuw gebruiken.",
+      "pro.now2": "Selectie uit batterijmerken en -types met realistische presets.",
+      "pro.now3": "Meerdere paneeloriëntaties, bijvoorbeeld oost–west.",
+      "pro.now4":
+        "Jaarverbruik van woning en apparaten aanpassen, en eigen apparaten toevoegen.",
+      "pro.laterTitle": "Later gepland",
+      "pro.later1": "Break-even berekening voor panelen en batterij.",
+      "pro.later2": "Dynamische energietarieven.",
+      "pro.later3": "Selectie uit populaire energieleveranciers.",
+      "pro.later4": "Energiehandelen met de batterij.",
+      "pro.later5": "En meer.",
       "screens.eyebrow": "App",
       "screens.title": "Zo ziet PowerPlant eruit",
       "screens.lead":
@@ -65,7 +82,7 @@ window.PowerPlantI18n = (() => {
       "privacy.meta.title": "Privacyverklaring — PowerPlant",
       "privacy.back": "← Terug naar PowerPlant",
       "privacy.title": "Privacyverklaring",
-      "privacy.updated": "Laatst bijgewerkt: 10 september 2026",
+      "privacy.updated": "Laatst bijgewerkt: 26 oktober 2026",
       "privacy.intro":
         "Deze privacyverklaring beschrijft hoe GenCode Utrecht persoonsgegevens verwerkt bij het gebruik van de PowerPlant-app en de bijbehorende website (powerplantapp.nl).",
       "privacy.s1.title": "1. Verantwoordelijke",
@@ -75,15 +92,15 @@ window.PowerPlantI18n = (() => {
       "privacy.s2.body":
         "PowerPlant is ontworpen op basis van het principe van minimale gegevensverwerking. Wij verwerken uitsluitend gegevens die technisch noodzakelijk zijn om energie-inschattingen te maken en de app te laten functioneren:",
       "privacy.s2.li1":
-        "Locatiegegevens: GPS-coördinaten of een handmatig ingevoerd Nederlands adres, uitsluitend om de lokale zonne-instraling en energieproductie te berekenen.",
+        "Locatiegegevens: GPS-coördinaten of een handmatig ingevoerd Nederlands adres, uitsluitend om lokale zonne-instraling en energieproductie te schatten. GPS-coördinaten blijven op jouw apparaat en worden lokaal vergeleken met een meegeleverd Nederland-instralingsraster. Alleen bij adreszoeken wordt de zoektekst naar PDOK gestuurd om coördinaten te bepalen.",
       "privacy.s2.li2":
-        "Installatie- en huishoudgegevens: Gegevens die je zelf invult (zoals het vermogen in Wp, de hellingshoek van panelen, je verbruiksprofiel, batterijcapaciteit en energietarieven).",
+        "Installatie- en huishoudgegevens: Gegevens die je zelf invult (zoals het vermogen in Wp, de hellingshoek van panelen, je verbruiksprofiel, batterijcapaciteit en energietarieven). Deze blijven op het apparaat.",
       "privacy.s2.li3":
-        "Technische opslag op het apparaat: Instellingen en je Pro-aankoopstatus worden uitsluitend via lokale opslag op jouw eigen apparaat bewaard.",
+        "Technische opslag op het apparaat: Instellingen, sessiegegevens en je Pro-aankoopstatus worden uitsluitend via lokale opslag op jouw eigen apparaat bewaard.",
       "privacy.s2.li4":
         "Transactiegegevens (Pro-versie): Indien je de Pro-versie aanschaft, wordt de betaling volledig afgehandeld door de app-store van jouw apparaat (Apple App Store of Google Play Store). GenCode Utrecht heeft geen toegang tot jouw bank- of creditcardgegevens.",
       "privacy.s2.note":
-        "Wij verplichten je niet om een account aan te maken. Wij verkopen geen persoonsgegevens aan derden.",
+        "Wij verplichten je niet om een account aan te maken. Wij verkopen geen persoonsgegevens aan derden. GenCode Utrecht heeft geen eigen backend die jouw locatie of configuratie opslaat.",
       "privacy.s3.title": "3. Doeleinden en grondslag",
       "privacy.s3.body":
         "Wij verwerken jouw gegevens voor de volgende doeleinden en op basis van de volgende AVG-rechtsgrondslagen:",
@@ -95,13 +112,15 @@ window.PowerPlantI18n = (() => {
         "Toestemming (art. 6 lid 1 onder a AVG): Indien van toepassing voor specifieke functies waar je expliciet akkoord voor geeft (zoals het live ophalen van je GPS-locatie). Gegeven toestemming kun je op elk moment weer intrekken via de instellingen van je apparaat.",
       "privacy.s4.title": "4. Delen met derden en internationale doorgifte",
       "privacy.s4.body":
-        "Voor het uitvoeren van de berekeningen en het tonen van de website deelt de app of website uitsluitend strikt noodzakelijke gegevens met de volgende partijen:",
+        "De app stuurt geen GPS-coördinaten of installatiegegevens naar GenCode Utrecht. Instralingsberekeningen gebeuren op het apparaat met een lokaal meegeleverd raster. Alleen de volgende, strikt noodzakelijke doorgiften vinden plaats:",
       "privacy.s4.li1":
-        "PDOK Locatieserver (Kadaster / Nederlandse overheid): Voor het omzetten van een handmatig ingevoerd adres naar coördinaten (geocodering).",
+        "PDOK Locatieserver (Kadaster / Nederlandse overheid): Alleen als je een Nederlands adres zoekt. Dan wordt de zoektekst/adresreferentie verstuurd om coördinaten te bepalen (geocodering).",
       "privacy.s4.li2":
-        "PVGIS (Joint Research Centre van de Europese Commissie): Voor het ophalen van historische en actuele instralingsdata op basis van jouw coördinaten.",
+        "PVGIS (Joint Research Centre van de Europese Commissie): Bron van de instralingsnormalen. Die data is vooraf afgeleid en lokaal in de app gebundeld. Tijdens normaal gebruik worden jouw coördinaten niet naar PVGIS gestuurd.",
       "privacy.s4.li3":
         "GitHub Inc. (GitHub Pages): Voor het hosten en tonen van de website powerplantapp.nl. GitHub verwerkt hierbij technische serverlogs (zoals IP-adressen). Omdat GitHub een Amerikaans bedrijf is, worden deze gegevens doorgegeven naar de Verenigde Staten. GitHub waarborgt een passend beschermingsniveau via de EU-U.S. Data Privacy Framework-certificering.",
+      "privacy.s4.li4":
+        "Google Play / Apple App Store: Bij aankoop of herstel van PowerPlant Pro handelen zij de betaling en aankoopstatus af volgens hun eigen voorwaarden.",
       "privacy.s4.note":
         "Wij gebruiken in de huidige versie van de app en website geen commerciële advertentienetwerken of analytische trackers (zoals Google Analytics).",
       "privacy.s5.title": "5. Bewaartermijn",
@@ -140,6 +159,7 @@ window.PowerPlantI18n = (() => {
       "meta.description":
         "PowerPlant is a calculation tool: estimate solar production, usage and annual costs of panels and battery for households in the Netherlands.",
       "nav.features": "Features",
+      "nav.pro": "Pro",
       "nav.screenshots": "Screenshots",
       "nav.download": "Download",
       "nav.privacy": "Privacy",
@@ -157,7 +177,7 @@ window.PowerPlantI18n = (() => {
         "From solar panels to tariffs: one app that brings production, usage and costs together.",
       "features.solar.title": "Solar panels",
       "features.solar.body":
-        "Set location via GPS or a Dutch address (PDOK). Calculate monthly yield from Wp, tilt, orientation and system efficiency — powered by PVGIS irradiation data.",
+        "Set location via GPS or a Dutch address (PDOK). Calculate monthly yield from Wp, tilt, orientation and system efficiency — using a local Netherlands irradiance grid (derived from PVGIS).",
       "features.usage.title": "Usage",
       "features.usage.body":
         "Choose house type, residents and appliances. PowerPlant builds a realistic monthly and hourly usage profile for your household.",
@@ -170,6 +190,22 @@ window.PowerPlantI18n = (() => {
       "features.results.title": "Results",
       "features.results.body":
         "Annual cost, self-sufficiency, export credit and clear charts of energy flow and monthly costs.",
+      "pro.eyebrow": "PowerPlant Pro",
+      "pro.title": "More options with a one-time purchase",
+      "pro.lead":
+        "The core of PowerPlant is free. PowerPlant Pro is a one-time unlock — no subscription — and supports further development of the app.",
+      "pro.nowTitle": "Included in Pro now",
+      "pro.now1": "Save, open and reuse configurations.",
+      "pro.now2": "Choose battery brands and types with realistic presets.",
+      "pro.now3": "Multiple panel orientations, for example east–west.",
+      "pro.now4":
+        "Customize yearly household and appliance usage, and add your own appliances.",
+      "pro.laterTitle": "Coming later",
+      "pro.later1": "Break-even calculation for panels and battery.",
+      "pro.later2": "Dynamic energy rates.",
+      "pro.later3": "Select from popular energy suppliers.",
+      "pro.later4": "Battery energy trading.",
+      "pro.later5": "And more.",
       "screens.eyebrow": "App",
       "screens.title": "A look inside PowerPlant",
       "screens.lead":
@@ -195,7 +231,7 @@ window.PowerPlantI18n = (() => {
       "privacy.meta.title": "Privacy Policy — PowerPlant",
       "privacy.back": "← Back to PowerPlant",
       "privacy.title": "Privacy Policy",
-      "privacy.updated": "Last updated: September 10, 2026",
+      "privacy.updated": "Last updated: October 26, 2026",
       "privacy.intro":
         "This privacy policy describes how GenCode Utrecht processes personal data when you use the PowerPlant app and the associated website (powerplantapp.nl).",
       "privacy.s1.title": "1. Data Controller",
@@ -205,15 +241,15 @@ window.PowerPlantI18n = (() => {
       "privacy.s2.body":
         "PowerPlant is designed based on the principle of data minimization. We only process data that is technically necessary to provide energy estimates and ensure the app functions properly:",
       "privacy.s2.li1":
-        "Location Data: GPS coordinates or a manually entered Dutch address, solely used to calculate local solar irradiance and energy production.",
+        "Location data: GPS coordinates or a manually entered Dutch address, used only to estimate local solar irradiance and energy production. GPS coordinates stay on your device and are matched locally against a bundled Netherlands irradiance grid. Only when you search by address is the search text sent to PDOK to resolve coordinates.",
       "privacy.s2.li2":
-        "Installation and Household Data: Information you enter yourself (such as solar panel capacity in Wp, tilt angle, electricity consumption profile, battery capacity, and energy tariffs).",
+        "Installation and household data: Information you enter yourself (such as solar panel capacity in Wp, tilt angle, electricity consumption profile, battery capacity, and energy tariffs). This stays on the device.",
       "privacy.s2.li3":
-        "Technical Local Storage: Settings and your Pro purchase status are stored exclusively in the local storage of your own device.",
+        "Technical local storage: Settings, session data and your Pro purchase status are stored exclusively in the local storage of your own device.",
       "privacy.s2.li4":
-        "Transaction Data (Pro Version): If you purchase the Pro version, the payment is fully handled by the app store of your device (Apple App Store or Google Play Store). GenCode Utrecht does not have access to your banking or credit card details.",
+        "Transaction data (Pro version): If you purchase the Pro version, the payment is fully handled by the app store of your device (Apple App Store or Google Play Store). GenCode Utrecht does not have access to your banking or credit card details.",
       "privacy.s2.note":
-        "We do not require you to create an account. We do not sell personal data to third parties.",
+        "We do not require you to create an account. We do not sell personal data to third parties. GenCode Utrecht does not operate a backend that stores your location or configuration.",
       "privacy.s3.title": "3. Purposes and Legal Basis",
       "privacy.s3.body":
         "We process your data for the following purposes and based on the following GDPR legal bases:",
@@ -225,13 +261,15 @@ window.PowerPlantI18n = (() => {
         "Consent (Art. 6(1)(a) GDPR): Where applicable for specific features you explicitly approve (such as retrieving your live GPS location). You can withdraw your consent at any time through your device settings.",
       "privacy.s4.title": "4. Third-Party Sharing and International Data Transfers",
       "privacy.s4.body":
-        "To perform the required calculations and display the website, the app or website only shares strictly necessary data with the following parties:",
+        "The app does not send GPS coordinates or installation data to GenCode Utrecht. Irradiance calculations run on the device using a bundled local grid. Only the following strictly necessary transfers take place:",
       "privacy.s4.li1":
-        "PDOK Locatieserver (Kadaster / Dutch Government): For converting a manually entered address into geographic coordinates (geocoding).",
+        "PDOK Locatieserver (Kadaster / Dutch Government): Only when you search for a Dutch address. The search text/address reference is then sent to resolve coordinates (geocoding).",
       "privacy.s4.li2":
-        "PVGIS (Joint Research Centre of the European Commission): To retrieve historical and current solar irradiance data based on your coordinates.",
+        "PVGIS (Joint Research Centre of the European Commission): Source of the irradiance climate normals. That data is pre-derived and bundled locally in the app. During normal use your coordinates are not sent to PVGIS.",
       "privacy.s4.li3":
         "GitHub Inc. (GitHub Pages): For hosting and displaying the website powerplantapp.nl. GitHub processes technical server logs (such as IP addresses) for this purpose. Because GitHub is a US-based company, this data is transferred to the United States. GitHub ensures an adequate level of data protection through its EU-U.S. Data Privacy Framework certification.",
+      "privacy.s4.li4":
+        "Google Play / Apple App Store: When you buy or restore PowerPlant Pro, they process the payment and purchase status under their own terms.",
       "privacy.s4.note":
         "In the current version of the app and website, we do not use commercial advertising networks or analytical trackers (such as Google Analytics).",
       "privacy.s5.title": "5. Data Retention",
