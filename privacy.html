@@ -29,6 +29,7 @@
         </a>
         <nav class="nav" aria-label="Primary">
           <a href="index.html#features" data-i18n="nav.features">Functies</a>
+          <a href="index.html#pro" data-i18n="nav.pro">Pro</a>
           <a href="index.html#download" data-i18n="nav.download">Download</a>
           <a href="privacy.html" data-i18n="nav.privacy">Privacy</a>
           <button
@@ -52,7 +53,7 @@
         >
         <h1 data-i18n="privacy.title">Privacyverklaring</h1>
         <p class="privacy-updated" data-i18n="privacy.updated">
-          Laatst bijgewerkt: 10 september 2026
+          Laatst bijgewerkt: 26 oktober 2026
         </p>
 
         <p data-i18n="privacy.intro">
@@ -79,16 +80,19 @@ Contact: support@powerplantapp.nl</p>
         <ul>
           <li data-i18n="privacy.s2.li1">
             Locatiegegevens: GPS-coördinaten of een handmatig ingevoerd
-            Nederlands adres, uitsluitend om de lokale zonne-instraling en
-            energieproductie te berekenen.
+            Nederlands adres, uitsluitend om lokale zonne-instraling en
+            energieproductie te schatten. GPS-coördinaten blijven op jouw
+            apparaat en worden lokaal vergeleken met een meegeleverd
+            Nederland-instralingsraster. Alleen bij adreszoeken wordt de
+            zoektekst naar PDOK gestuurd om coördinaten te bepalen.
           </li>
           <li data-i18n="privacy.s2.li2">
             Installatie- en huishoudgegevens: Gegevens die je zelf invult (zoals
             het vermogen in Wp, de hellingshoek van panelen, je verbruiksprofiel,
-            batterijcapaciteit en energietarieven).
+            batterijcapaciteit en energietarieven). Deze blijven op het apparaat.
           </li>
           <li data-i18n="privacy.s2.li3">
-            Technische opslag op het apparaat: Instellingen en je
+            Technische opslag op het apparaat: Instellingen, sessiegegevens en je
             Pro-aankoopstatus worden uitsluitend via lokale opslag op jouw eigen
             apparaat bewaard.
           </li>
@@ -101,7 +105,8 @@ Contact: support@powerplantapp.nl</p>
         </ul>
         <p data-i18n="privacy.s2.note">
           Wij verplichten je niet om een account aan te maken. Wij verkopen geen
-          persoonsgegevens aan derden.
+          persoonsgegevens aan derden. GenCode Utrecht heeft geen eigen backend
+          die jouw locatie of configuratie opslaat.
         </p>
 
         <h2 data-i18n="privacy.s3.title">3. Doeleinden en grondslag</h2>
@@ -131,20 +136,22 @@ Contact: support@powerplantapp.nl</p>
           4. Delen met derden en internationale doorgifte
         </h2>
         <p data-i18n="privacy.s4.body">
-          Voor het uitvoeren van de berekeningen en het tonen van de website deelt
-          de app of website uitsluitend strikt noodzakelijke gegevens met de
-          volgende partijen:
+          De app stuurt geen GPS-coördinaten of installatiegegevens naar GenCode
+          Utrecht. Instralingsberekeningen gebeuren op het apparaat met een lokaal
+          meegeleverd raster. Alleen de volgende, strikt noodzakelijke doorgiften
+          vinden plaats:
         </p>
         <ul>
           <li data-i18n="privacy.s4.li1">
-            PDOK Locatieserver (Kadaster / Nederlandse overheid): Voor het
-            omzetten van een handmatig ingevoerd adres naar coördinaten
-            (geocodering).
+            PDOK Locatieserver (Kadaster / Nederlandse overheid): Alleen als je
+            een Nederlands adres zoekt. Dan wordt de zoektekst/adresreferentie
+            verstuurd om coördinaten te bepalen (geocodering).
           </li>
           <li data-i18n="privacy.s4.li2">
-            PVGIS (Joint Research Centre van de Europese Commissie): Voor het
-            ophalen van historische en actuele instralingsdata op basis van jouw
-            coördinaten.
+            PVGIS (Joint Research Centre van de Europese Commissie): Bron van de
+            instralingsnormalen. Die data is vooraf afgeleid en lokaal in de app
+            gebundeld. Tijdens normaal gebruik worden jouw coördinaten niet naar
+            PVGIS gestuurd.
           </li>
           <li data-i18n="privacy.s4.li3">
             GitHub Inc. (GitHub Pages): Voor het hosten en tonen van de website
@@ -153,6 +160,11 @@ Contact: support@powerplantapp.nl</p>
             gegevens doorgegeven naar de Verenigde Staten. GitHub waarborgt een
             passend beschermingsniveau via de EU-U.S. Data Privacy
             Framework-certificering.
+          </li>
+          <li data-i18n="privacy.s4.li4">
+            Google Play / Apple App Store: Bij aankoop of herstel van PowerPlant
+            Pro handelen zij de betaling en aankoopstatus af volgens hun eigen
+            voorwaarden.
           </li>
         </ul>
         <p data-i18n="privacy.s4.note">
