@@ -569,6 +569,9 @@ a:hover {
   width: 100%;
   height: 100%;
   object-fit: contain;
+}
+
+.qr-slot.is-disabled .qr-frame img {
   opacity: 0.55;
   filter: grayscale(0.2);
 }

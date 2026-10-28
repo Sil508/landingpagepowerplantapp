@@ -1,16 +1,71 @@
 /**
- * Store URL placeholders — replace when the app is published.
- * QR images live in assets/qr/; swap those files for real store QR codes.
+ * Store links and language-specific QR assets.
+ * Google Play is live; App Store stays “coming soon” until published.
  */
 window.PowerPlantConfig = {
-  googlePlayUrl: "", // e.g. https://play.google.com/store/apps/details?id=...
-  appStoreUrl: "", // e.g. https://apps.apple.com/app/id...
+  googlePlayUrlNl:
+    "https://play.google.com/store/apps/details?id=com.powerplant.powerplant&hl=nl",
+  googlePlayUrlEn:
+    "https://play.google.com/store/apps/details?id=com.powerplant.powerplant&hl=en",
+  appStoreUrl: "", // set when published on the App Store
+  qr: {
+    playNl: "assets/qr/google-play_nl.svg",
+    playEn: "assets/qr/google-play_en.svg",
+    appStoreNl: "assets/qr/app-store_nl.svg",
+    appStoreEn: "assets/qr/app-store_en.svg",
+  },
 };
 
 (function () {
   const { apply, toggle, detectInitialLang } = window.PowerPlantI18n;
+  const cfg = window.PowerPlantConfig;
+
+  function currentLang() {
+    return document.documentElement.lang === "en" ? "en" : "nl";
+  }
+
+  function bindStore(linkId, url, { disabled }) {
+    const a = document.getElementById(linkId);
+    if (!a) return;
+    // Avoid stacking preventDefault listeners on re-bind
+    a.onclick = null;
+    if (url && !disabled) {
+      a.href = url;
+      a.target = "_blank";
+      a.rel = "noopener noreferrer";
+      a.removeAttribute("aria-disabled");
+      a.classList.remove("is-disabled");
+    } else {
+      a.href = "#download";
+      a.removeAttribute("target");
+      a.removeAttribute("rel");
+      a.setAttribute("aria-disabled", "true");
+      a.classList.add("is-disabled");
+      a.onclick = (e) => e.preventDefault();
+    }
+  }
+
+  function updateStoreUi(lang) {
+    const isEn = lang === "en";
+    const playUrl = isEn ? cfg.googlePlayUrlEn : cfg.googlePlayUrlNl;
+    const playImg = document.getElementById("qr-play-img");
+    const appImg = document.getElementById("qr-appstore-img");
+
+    if (playImg) {
+      playImg.src = isEn ? cfg.qr.playEn : cfg.qr.playNl;
+      playImg.alt = isEn ? "Google Play QR code" : "Google Play QR-code";
+    }
+    if (appImg) {
+      appImg.src = isEn ? cfg.qr.appStoreEn : cfg.qr.appStoreNl;
+      appImg.alt = isEn ? "App Store QR code (coming soon)" : "App Store QR-code (binnenkort)";
+    }
+
+    bindStore("link-play", playUrl, { disabled: false });
+    bindStore("link-appstore", cfg.appStoreUrl, { disabled: true });
+  }
 
   apply(detectInitialLang());
+  updateStoreUi(currentLang());
 
   const langBtn = document.getElementById("lang-toggle");
   if (langBtn) {
@@ -19,29 +74,13 @@ window.PowerPlantConfig = {
       const url = new URL(window.location.href);
       url.searchParams.set("lang", document.documentElement.lang);
       window.history.replaceState({}, "", url);
+      updateStoreUi(currentLang());
     });
   }
 
-  // Wire QR / store links when URLs are set; otherwise keep placeholders inert.
-  function bindStore(linkId, url) {
-    const a = document.getElementById(linkId);
-    if (!a) return;
-    if (url) {
-      a.href = url;
-      a.target = "_blank";
-      a.rel = "noopener noreferrer";
-      a.removeAttribute("aria-disabled");
-      a.classList.remove("is-disabled");
-    } else {
-      a.href = "#download";
-      a.setAttribute("aria-disabled", "true");
-      a.classList.add("is-disabled");
-      a.addEventListener("click", (e) => e.preventDefault());
-    }
-  }
-
-  bindStore("link-play", window.PowerPlantConfig.googlePlayUrl);
-  bindStore("link-appstore", window.PowerPlantConfig.appStoreUrl);
+  document.addEventListener("pp:lang", (e) => {
+    updateStoreUi(e.detail?.lang === "en" ? "en" : "nl");
+  });
 
   // Reveal-on-scroll for sections
   const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
